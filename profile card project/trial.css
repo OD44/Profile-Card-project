@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.pic{
+    z-index: -10px;
+}
+.me{
+    width: 30%;
+    border: 1px solid black;
+    position: absolute;
+    left: 35%;
+    z-index: 40;
+    background-color: red;
+}
+.one img{
+    position: relative;
+    right: 40%;
+}
+.two img{
+    position: relative;
+    left: 40%;
+}
+.infor-container{
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+}
+.info-top{
+    background: url(./images/bg-pattern-card.svg);
+    width: 100%;
+    height: 20vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.info-top img{
+    border-radius: 50%;
+    position: relative;
+    left: 33%;
+    top: 65%;
+    border: 4px solid white;
+}
+.info-content{
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    gap: 35px;
+    margin-top: 35px;
+}
+.info-content p{
+    text-align: center;
+}
+.info-text{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    margin-top: 10px;
+    border-top: 0.5px solid black;
+    width: 100%;
+}
